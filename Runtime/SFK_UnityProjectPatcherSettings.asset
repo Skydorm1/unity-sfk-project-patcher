@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f29d200711b44929311442db80f4c89, type: 3}
+  m_Name: SFK_UnityProjectPatcherSettings
+  m_EditorClassIdentifier: 
+  _gameName: Super Fantasy Kingdom
+  _customGameName: 
+  _gameVersion: 2021.3.45
+  _pipelineType: 0
+  _dllsToCopy:  
+  - key:
+    sourceName: AWSSDK.CognitoIdentity.dll
+    outputPath:
+    exclude: 0
+  - key:
+    sourceName: AWSSDK.Core.dll
+    outputPath:
+    exclude: 0
+  - key:
+    sourceName: AWSSDK.Kinesis.dll
+    outputPath:
+    exclude: 0
+  - key:
+    sourceName: AWSSDK.SecurityToken.dll
+    outputPath:
+    exclude: 0
+  - key:
+    sourceName: com.rlabrecque.steamworks.net.dll
+    outputPath:
+    exclude: 0
+  - key:
+    sourceName: FMODUnity.dll
+    outputPath:
+    exclude: 0
+  - key:
+    sourceName: GalaxyCSharp.dll
+    outputPath:
+    exclude: 0
+  - key:
+    sourceName: GamesFarm.Platforms.WinGDK.Private.Core.dll
+    outputPath:
+    exclude: 0
+  - key:
+    sourceName: GamesFarm.Platforms.WinGDK.Private.Runtime.dll
+    outputPath:
+    exclude: 0
+  - key:
+    sourceName: PrimeTween.Runtime.dll
+    outputPath:
+    exclude: 0
+  - key:
+    sourceName: steam_api64.dll
+    outputPath:
+    exclude: 0
+  - key:
+    sourceName: Textus.SerializeReferenceUI.dll
+    outputPath:
+    exclude: 0
+  - key:
+    sourceName: Unity.Microsoft.GDK.dll
+    outputPath:
+    exclude: 0
+  - key:
+    sourceName: Unity.Microsoft.GDK.Tools.dll
+    outputPath:
+    exclude: 0
+  _scriptDllFoldersToCopy: []
+  _ignoredDllPrefixes:
+  - System.
+  - UnityEngine.
+  - Unity.
+  _exactPackagesFound: []
+  _possiblePackagesFound: []
+  _improbablePackagesFound: []
+  _gitPackages: []
